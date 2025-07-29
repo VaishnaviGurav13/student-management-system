@@ -12,6 +12,8 @@
     </script>--%>
 
     <div>
+        <h1>welcome to github</h1>
+        <h1>welcome to github2</h1>
         <center>
             <h1><%=GetGlobalResourceObject("LoginPage_Resource","loginPageHeading") %></h1>
         </center>
