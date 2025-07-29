@@ -49,10 +49,7 @@ This application uses a **3-Tier Architecture**:
 - **Data Access Layer (DAL)** – Communicates with the database via stored procedures
 - Communication via **ASMX Web Services**
 
----
 
-## 📅 Deadline
-Project delivery targeted by **April 30th**
 
 ---
 
