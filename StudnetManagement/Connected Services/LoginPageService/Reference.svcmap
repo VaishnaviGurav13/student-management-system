@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="56d9e9fc-1b0d-4fda-94d2-e7d179b7553a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55985/LoginPageService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LoginPageService.xsd" MetadataType="Schema" ID="92b041d5-9769-4d79-b233-0afff67de342" SourceId="1" SourceUrl="http://localhost:55985/LoginPageService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LoginPageService.wsdl" MetadataType="Wsdl" ID="12928ad6-4701-43d3-948a-e18870222e02" SourceId="1" SourceUrl="http://localhost:55985/LoginPageService.svc?wsdl" />
+    <MetadataFile FileName="LoginPageService1.xsd" MetadataType="Schema" ID="511636ae-e8e8-4210-a678-0a2fa3ab76ba" SourceId="1" SourceUrl="http://localhost:55985/LoginPageService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LoginPageService.disco" MetadataType="Disco" ID="0c86d728-0211-4e8e-8038-8d385bcb62dd" SourceId="1" SourceUrl="http://localhost:55985/LoginPageService.svc?disco" />
+    <MetadataFile FileName="LoginPageService2.xsd" MetadataType="Schema" ID="9f1f9787-6d50-4de4-b7ff-1cf612b5d50f" SourceId="1" SourceUrl="http://localhost:55985/LoginPageService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

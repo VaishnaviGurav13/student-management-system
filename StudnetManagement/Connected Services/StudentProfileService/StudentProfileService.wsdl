@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="StudentProfileService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:55985/StudentProfileService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:55985/StudentProfileService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:55985/StudentProfileService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/StudentManagement_Service.StudentData" />
+      <xsd:import schemaLocation="http://localhost:55985/StudentProfileService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IStudentProfileService_GetStudentData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudentData" />
+  </wsdl:message>
+  <wsdl:message name="IStudentProfileService_GetStudentData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudentDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentProfileService_GetSelectedCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectedCourses" />
+  </wsdl:message>
+  <wsdl:message name="IStudentProfileService_GetSelectedCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectedCoursesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentProfileService_UpdateStudentData_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStudentData" />
+  </wsdl:message>
+  <wsdl:message name="IStudentProfileService_UpdateStudentData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStudentDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IStudentProfileService">
+    <wsdl:operation name="GetStudentData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentProfileService/GetStudentData" message="tns:IStudentProfileService_GetStudentData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentProfileService/GetStudentDataResponse" message="tns:IStudentProfileService_GetStudentData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectedCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentProfileService/GetSelectedCourses" message="tns:IStudentProfileService_GetSelectedCourses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentProfileService/GetSelectedCoursesResponse" message="tns:IStudentProfileService_GetSelectedCourses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStudentData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentProfileService/UpdateStudentData" message="tns:IStudentProfileService_UpdateStudentData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentProfileService/UpdateStudentDataResponse" message="tns:IStudentProfileService_UpdateStudentData_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IStudentProfileService" type="tns:IStudentProfileService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStudentData">
+      <soap:operation soapAction="http://tempuri.org/IStudentProfileService/GetStudentData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectedCourses">
+      <soap:operation soapAction="http://tempuri.org/IStudentProfileService/GetSelectedCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStudentData">
+      <soap:operation soapAction="http://tempuri.org/IStudentProfileService/UpdateStudentData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="StudentProfileService">
+    <wsdl:port name="BasicHttpBinding_IStudentProfileService" binding="tns:BasicHttpBinding_IStudentProfileService">
+      <soap:address location="http://localhost:55985/StudentProfileService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

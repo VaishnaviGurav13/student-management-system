@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4efe2082-86f2-488a-9a1f-9ad257144dca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55985/StudentRegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StudentRegistrationService.disco" MetadataType="Disco" ID="972d8ab2-6cee-473d-9d56-7f99d33d928f" SourceId="1" SourceUrl="http://localhost:55985/StudentRegistrationService.svc?disco" />
+    <MetadataFile FileName="StudentRegistrationService.xsd" MetadataType="Schema" ID="333ca171-88dc-4d3e-9034-adce85528fac" SourceId="1" SourceUrl="http://localhost:55985/StudentRegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="StudentRegistrationService1.xsd" MetadataType="Schema" ID="912e1ffe-d214-4e43-b99a-9e1aa3485e21" SourceId="1" SourceUrl="http://localhost:55985/StudentRegistrationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StudentRegistrationService.wsdl" MetadataType="Wsdl" ID="d2037b44-84e2-483a-8e89-cdee349bafb5" SourceId="1" SourceUrl="http://localhost:55985/StudentRegistrationService.svc?wsdl" />
+    <MetadataFile FileName="StudentRegistrationService2.xsd" MetadataType="Schema" ID="8c005909-3a0e-4610-a638-b6fe566e8eee" SourceId="1" SourceUrl="http://localhost:55985/StudentRegistrationService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

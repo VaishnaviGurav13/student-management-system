@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="014085bb-f657-47d3-b788-187ee37fa836" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55985/AdminDashboardService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AdminDashboardService.xsd" MetadataType="Schema" ID="6b55c87d-a858-4838-b3e5-54c139479cb8" SourceId="1" SourceUrl="http://localhost:55985/AdminDashboardService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AdminDashboardService.wsdl" MetadataType="Wsdl" ID="088b7fc5-9d5c-4ac1-9552-d33856c11533" SourceId="1" SourceUrl="http://localhost:55985/AdminDashboardService.svc?wsdl" />
+    <MetadataFile FileName="AdminDashboardService.disco" MetadataType="Disco" ID="02aeb007-fa7a-4e21-9af2-c5663ba85102" SourceId="1" SourceUrl="http://localhost:55985/AdminDashboardService.svc?disco" />
+    <MetadataFile FileName="AdminDashboardService1.xsd" MetadataType="Schema" ID="a6a2fdcf-47c2-4d48-9952-75b42f0f62d9" SourceId="1" SourceUrl="http://localhost:55985/AdminDashboardService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AdminDashboardService2.xsd" MetadataType="Schema" ID="b5141d0e-3c3a-4d37-b44f-ef4616377830" SourceId="1" SourceUrl="http://localhost:55985/AdminDashboardService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

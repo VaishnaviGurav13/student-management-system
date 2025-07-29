@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35826.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement", "StudnetManagement\StudentManagement.csproj", "{2FCC965F-7121-4392-B2D3-D3FCF69F540C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement_Service", "StudentManagement_Service\StudentManagement_Service.csproj", "{75902AB1-01AB-46F7-8044-3F8285EBC497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement_Service_DAL", "StudentManagement_Service_DAL\StudentManagement_Service_DAL.csproj", "{C2EE3227-9E9D-47D4-BA01-029CACFB75BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FCC965F-7121-4392-B2D3-D3FCF69F540C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCC965F-7121-4392-B2D3-D3FCF69F540C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCC965F-7121-4392-B2D3-D3FCF69F540C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCC965F-7121-4392-B2D3-D3FCF69F540C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75902AB1-01AB-46F7-8044-3F8285EBC497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75902AB1-01AB-46F7-8044-3F8285EBC497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75902AB1-01AB-46F7-8044-3F8285EBC497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75902AB1-01AB-46F7-8044-3F8285EBC497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EE3227-9E9D-47D4-BA01-029CACFB75BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EE3227-9E9D-47D4-BA01-029CACFB75BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EE3227-9E9D-47D4-BA01-029CACFB75BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EE3227-9E9D-47D4-BA01-029CACFB75BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		SolutionGuid = {B824874A-FEDE-4593-A134-941508190F3D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="StudnetManagement.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <script src="<%= ConfigurationManager.AppSettings["jqueryPath"] %>"></script>
+    <script type="text/javascript">
+        jQuery.BasePathNameSpace = jQuery.BasePathNameSpace || {};
+        jQuery.BasePathNameSpace.WebServicePath = '<%= System.Configuration.ConfigurationManager.AppSettings["WebServicePath"] %>';
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
